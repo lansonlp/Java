@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class CI {
+public class Calculate {
 
     public void calculate(int p, int t, double r, int n) {
         double a = p * Math.pow(1 + (r / n), n * t);
