@@ -4,16 +4,16 @@ public class Calculate {
 
     public void calculate(int p, int t, double r, int n) {
         double a = p * Math.pow(1 + (r / n), n * t);
-        double cinterest = a - p;
-        System.out.println("Compound Interest after " + t + " years: "+cinterest);
+        double Calculatenterest = a - p;
+        System.out.println("Compound Interest after " + t + " years: "+Calculatenterest);
         System.out.println("Amount after " + t + " years: "+a);
     }
     public static void main(String args[]) {
       int p,t,n;
       double r;
-    	CI obj = new CI();
+    	Calculate obj = new Calculate();
       Scanner s=new Scanner(System.in);
-      System.out.print("Enter the principal amount : ");
+      System.out.print("Enter the prinCalculatepal amount : ");
       p=s.nextInt();
       System.out.print("Enter the time the money is invested or borrowed for : ");
       t=s.nextInt();
